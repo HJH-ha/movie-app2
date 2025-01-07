@@ -1,0 +1,5 @@
+.app {
+  display: grid;
+  /* 세로로 첫번째 자식 높이 80px */
+  grid-template-rows: 80px auto;
+}
