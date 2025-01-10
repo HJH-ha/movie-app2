@@ -1,8 +1,21 @@
-# React + Vite
+# 영화 탐색 사이트 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+이 프로젝트는 **React**와 **Vite**를 사용하여 개발된 영화 탐색 웹 애플리케이션입니다. 사용자는 API를 통해 영화 정보를 검색하고, 인기작품, 평점순, 최신작을 각각 확인할 수 있습니다. 또한 각 영화의 상세 정보를 확인할 수 있습니다.
 
-Currently, two official plugins are available:
+## 주요 기능 🚀
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **영화 검색**: 영화 제목을 입력하여 관련 영화 정보를 검색할 수 있습니다.
+- **영화 상세 정보**: 선택한 영화의 줄거리, 장르, 평점, 개봉일 등을 확인할 수 있습니다.
+- **인기작품 확인**: 인기작품, 평점이 좋은 작품, 최신작을 각각 확인할 수 있습니다.
+- **반응형 디자인**: 모바일, 태블릿, 데스크톱 등 다양한 디바이스에 최적화된 UI를 제공합니다.
+
+## 기술 스택 🛠
+
+- **프론트엔드**: React (with Hooks)
+- **번들러**: Vite
+- **스타일링**: CSS Modules 또는 TailwindCSS
+- **API**: [themoviedb](https://api.themoviedb.org)
+
+## 배포 사이트 🌐
+
+[영화 탐색 사이트 바로가기](https://search-movie-app-jhha.netlify.app/)
